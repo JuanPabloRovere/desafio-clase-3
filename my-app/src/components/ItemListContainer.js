@@ -1,14 +1,15 @@
 import React from 'react';
+import ItemCount from "./ItemCount";
+
 
 
 function ItemListContainer() {
     return (
         <div class="card">
-  <div class="card-body">
-    This is some text within a card body.
-  </div>
+          <div class="card-body">
+             <ItemCount />
 </div>
-
+</div>
     );
 }
 
